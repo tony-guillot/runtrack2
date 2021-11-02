@@ -8,7 +8,7 @@ echo $str2 . $str . $str3;
 $val = 6;
 echo $val;
 
-$val = 6 + 4;
+$val = $val + 4;
 echo  $val;
 
 $myBool = true;
