@@ -1,9 +1,9 @@
 <?php
 
  $num= 2; // 2 est le plus petit nombre premier
-
- while($num<= 1000){
-         $count=0;     
+ $count= 0;
+ while($num <= 1000){
+        $count= 0;
     for( $i = 1; $i <= $num; $i++){
         if(($num % $i)==0){ // si la division des deux variable = 0 alors = pas nombre premier count+
 
