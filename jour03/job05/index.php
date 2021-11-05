@@ -30,39 +30,35 @@ $dic1 = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w"
         <tr>
             <td>
 
-<?php $i=0;
+<?php 
 
-    while(isset($str[$i])){
-        
-        $a = 0;
+   for($i = 0; isset($str[$i]); $i++){
 
-        while(isset($dic[$a])){
-
-            if($str[$i] == $dic[$a])
-            echo $str[$i] . '<br>'; 
-            $a++;
+        for($a = 0; isset($dic[$a]); $a++){
+            
+            if($str[$i] == $dic[$a]){
+                echo $str[$i] . '<br>';
+            }
         }
-        $i++;
+   }
 
-    } ?> 
+     ?> 
         </td>
    
 
 
         <td> 
-            <?php $x = 0;
+            <?php 
         
-        while(isset($str[$x])){
+        for($b = 0; isset($str[$b]); $b++){
 
-            $j = 0;
-
-            while(isset($dic1[$j])){
-                if($str[$x] == $dic1[$j])
-                echo $str[$x] . '<br>';
-                $j++;
+            for($j = 0; isset($dic[$j]); $j++){
+                
+                if($str[$b] == $dic[$j]){
+                    echo $str[$b] . '<br>';
+                }
             }
-            $x++;
-        }
+       }
 
             ?>
     </td>
