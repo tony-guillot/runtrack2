@@ -5,15 +5,14 @@ do that.';
 
 $v = "aeiouyI";
 
-$i = 0;
 
- while(isset($str[$i])){
-     $x = 0;
-    while(isset($v[$x])){
-        if($str[$i] == $v[$x])
-        echo $str[$i] . '<br>';
-        $x++;
-    }
-    $i++;
- }
+for($i = 0; isset($str[$i]); $i++){
+    
+    
+for($x = 0; isset($v[$x]); $x++){
+    if($str[$i] == $v[$x])
 
+    echo $str[$i];
+}
+
+}
