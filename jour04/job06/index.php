@@ -10,12 +10,10 @@ if($_GET['nombre'] % 2 == 0){
 
         echo 'nombre pair';
     
+}else{
+    echo 'Nombre impair';
 }
 
-if($_GET['nombre'] % 2 != 0){
-        
-    echo 'nombre impair';
-}
 
 
 
