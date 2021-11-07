@@ -6,6 +6,8 @@
 
 <?php
 
+
+
 if($_GET['nombre'] % 2 == 0){
 
         echo 'nombre pair';

@@ -21,10 +21,11 @@ if($_POST['username'] == 'John'){
     if($_POST['password'] == 'Rambo')
 
         echo 'C\'est pas ma guerre';
-    
-    else{
+    }
+
+    else {
         echo 'Votre pire cauchemar';
     }
-}
+
 
 ?>
