@@ -27,12 +27,15 @@
 </html>
 
 <?php
-
+ 
+$i = 0;
 foreach( $_GET as $val){
    
     echo $val . '<br>';
-}
 
+    $i++ ;
+}
+echo $i;
 
 
 
