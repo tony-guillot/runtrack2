@@ -38,6 +38,4 @@ foreach( $_GET as $val){
 echo $i;
 
 
-
-
 ?>
