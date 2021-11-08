@@ -2,12 +2,13 @@
 
 
 
-function gethello(){
+function gethello($a){
 
 
-    return  'Hello LaPlateforme!';
+    return $a;
 }
 
-$hello = gethello();
+$hello = gethello('hello LaPlateforme');
+
 
 echo $hello;
