@@ -11,7 +11,7 @@ while(isset($str[$i])){
     
     
 } 
-echo $i;
+echo $i; 
 
 
 
