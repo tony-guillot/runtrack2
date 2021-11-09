@@ -1,10 +1,4 @@
 
-<?php
-
- echo $gras; 
-
-
-?>
 
 
 <form action="" method="post">
@@ -24,9 +18,10 @@ function gras($str){
     }
     return $str;
 }
+
 }
 $gras = gras('hello la Plateforme');
-
+echo $gras;
 ?>
 
 

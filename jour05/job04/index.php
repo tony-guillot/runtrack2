@@ -3,9 +3,9 @@
 
 
 
-function calcule($a,$b, $operation){ // on definit les paramètres de la fontion 
+function calcule($a,$b,$operation){ // on definit les paramètres de la fontion 
 
-        if($operation == "+"){
+        if($operation == '+'){
 
             return ($a + $b);
         }
@@ -25,7 +25,7 @@ function calcule($a,$b, $operation){ // on definit les paramètres de la fontion
         
     }
 
-$calcule = calcule(12, 15, '*'); // ont met en troisième parametre l'opérateur que l'on veut et on definit une valeur à $a et $b 
+$calcule = calcule(12, 15, '+'); // ont met en troisième parametre l'opérateur que l'on veut et on definit une valeur à $a et $b 
 
 echo $calcule;
 
