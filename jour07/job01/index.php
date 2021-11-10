@@ -8,7 +8,7 @@ session_start();
 if(isset($_POST['reset'])){  // $_POST puis la valeur de mon bouton
 
     session_destroy(); // met fin à la session si le button reset et executer  
-
+    header('Location: index.php');
 
    }
 
