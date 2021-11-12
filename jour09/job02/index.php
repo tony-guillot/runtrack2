@@ -2,7 +2,7 @@
 
 $bdd =  mysqli_connect ("localhost", "root","","jour08");
 
-$req = mysqli_query($bdd, "SELECT * FROM etudiants");
+$req = mysqli_query($bdd, "SELECT nom,capacite FROM salles");
 
 $res= mysqli_fetch_all($req, MYSQLI_ASSOC);
 
@@ -73,13 +73,7 @@ var_dump($res);
         ?>   
          </tr>
 
-         <tr>
-
-        <?php  
-        foreach($res[6] as $key => $value){
-        echo "<td>$value</td>";}
-        ?>   
-         </tr>
+         
 
          
     </tbody>
