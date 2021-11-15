@@ -17,11 +17,10 @@ for($i = 0; isset($str[$i]); $i++){
         
         $str[$i] == $str[$i+1];
         echo $str[$i];
-        
+        $sav++;
 
     } else {
 
-     
      echo $sav;
      
     
